@@ -1,0 +1,11 @@
+﻿  1.c
+e:\c语言\练习\project7\project7\1.c(27): error C2059: 语法错误:“类型”
+e:\c语言\练习\project7\project7\1.c(31): error C2065: “p”: 未声明的标识符
+e:\c语言\练习\project7\project7\1.c(31): error C2223: “->value”的左侧必须指向结构/联合
+e:\c语言\练习\project7\project7\1.c(32): error C2065: “p”: 未声明的标识符
+e:\c语言\练习\project7\project7\1.c(32): error C2223: “->next”的左侧必须指向结构/联合
+e:\c语言\练习\project7\project7\1.c(40): error C2065: “p”: 未声明的标识符
+e:\c语言\练习\project7\project7\1.c(40): warning C4047: “=”:“_node *”与“int”的间接级别不同
+e:\c语言\练习\project7\project7\1.c(43): error C2065: “p”: 未声明的标识符
+e:\c语言\练习\project7\project7\1.c(43): warning C4047: “=”:“Node *”与“int”的间接级别不同
+e:\c语言\练习\project7\project7\1.c(45): error C2059: 语法错误:“}”

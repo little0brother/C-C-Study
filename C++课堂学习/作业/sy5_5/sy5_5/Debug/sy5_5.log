@@ -1,0 +1,6 @@
+﻿  5_5.c
+e:\c语言\作业\sy5_5\sy5_5\5_5.c(9): warning C4013: “gets”未定义；假设外部返回 int
+e:\c语言\作业\sy5_5\sy5_5\5_5.c(11): warning C4013: “strlen”未定义；假设外部返回 int
+e:\c语言\作业\sy5_5\sy5_5\5_5.c(12): warning C4013: “strcpy”未定义；假设外部返回 int
+e:\c语言\作业\sy5_5\sy5_5\5_5.c(20): warning C4013: “system”未定义；假设外部返回 int
+  sy5_5.vcxproj -> E:\C语言\作业\sy5_5\Debug\sy5_5.exe

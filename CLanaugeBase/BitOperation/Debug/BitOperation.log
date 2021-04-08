@@ -1,0 +1,4 @@
+﻿  loopMove.c
+F:\ProgramLanguage\CLanguage\CLanaugeBase\BitOperation\loopMove.c(13,8): warning C4477: “scanf”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 1 拥有了类型“unsigned char *”
+F:\ProgramLanguage\CLanguage\CLanaugeBase\BitOperation\loopMove.c(13,8): message : 请考虑在格式字符串中使用“%hhd”
+  BitOperation.vcxproj -> F:\ProgramLanguage\CLanguage\CLanaugeBase\Structure\Debug\BitOperation.exe

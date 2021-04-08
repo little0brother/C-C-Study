@@ -1,0 +1,4 @@
+﻿  7_6.c
+e:\c语言\作业\sy7_6\sy7_6\7_6.c(9): warning C4013: “gets”未定义；假设外部返回 int
+e:\c语言\作业\sy7_6\sy7_6\7_6.c(25): warning C4013: “system”未定义；假设外部返回 int
+  sy7_6.vcxproj -> E:\C语言\作业\sy7_6\Debug\sy7_6.exe

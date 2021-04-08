@@ -1,0 +1,18 @@
+﻿  02_数据类型本质.c
+F:\ProgramLanguage\CLanguage\CLanaugeAdvanced\day01\day01\day01\02_数据类型本质.c(14,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
+F:\ProgramLanguage\CLanguage\CLanaugeAdvanced\day01\day01\day01\02_数据类型本质.c(14,9): message : 请考虑在格式字符串中使用“%zd”
+F:\ProgramLanguage\CLanguage\CLanaugeAdvanced\day01\day01\day01\02_数据类型本质.c(14,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“size_t”
+F:\ProgramLanguage\CLanguage\CLanaugeAdvanced\day01\day01\day01\02_数据类型本质.c(14,9): message : 请考虑在格式字符串中使用“%zd”
+F:\ProgramLanguage\CLanguage\CLanaugeAdvanced\day01\day01\day01\02_数据类型本质.c(18,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“int *”
+F:\ProgramLanguage\CLanguage\CLanaugeAdvanced\day01\day01\day01\02_数据类型本质.c(18,9): warning C4313: “printf”: 格式字符串中的“%d”与“int *”类型的参数 1 冲突
+F:\ProgramLanguage\CLanguage\CLanaugeAdvanced\day01\day01\day01\02_数据类型本质.c(18,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“int (*)[10]”
+F:\ProgramLanguage\CLanguage\CLanaugeAdvanced\day01\day01\day01\02_数据类型本质.c(18,9): warning C4313: “printf”: 格式字符串中的“%d”与“int (*)[10]”类型的参数 2 冲突
+F:\ProgramLanguage\CLanguage\CLanaugeAdvanced\day01\day01\day01\02_数据类型本质.c(23,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“int *”
+F:\ProgramLanguage\CLanguage\CLanaugeAdvanced\day01\day01\day01\02_数据类型本质.c(23,9): warning C4313: “printf”: 格式字符串中的“%d”与“int *”类型的参数 1 冲突
+F:\ProgramLanguage\CLanguage\CLanaugeAdvanced\day01\day01\day01\02_数据类型本质.c(23,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“int (*)[10]”
+F:\ProgramLanguage\CLanguage\CLanaugeAdvanced\day01\day01\day01\02_数据类型本质.c(23,9): warning C4313: “printf”: 格式字符串中的“%d”与“int (*)[10]”类型的参数 2 冲突
+F:\ProgramLanguage\CLanguage\CLanaugeAdvanced\day01\day01\day01\02_数据类型本质.c(29,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
+F:\ProgramLanguage\CLanguage\CLanaugeAdvanced\day01\day01\day01\02_数据类型本质.c(29,9): message : 请考虑在格式字符串中使用“%zd”
+F:\ProgramLanguage\CLanguage\CLanaugeAdvanced\day01\day01\day01\02_数据类型本质.c(29,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“size_t”
+F:\ProgramLanguage\CLanguage\CLanaugeAdvanced\day01\day01\day01\02_数据类型本质.c(29,9): message : 请考虑在格式字符串中使用“%zd”
+  day01.vcxproj -> F:\ProgramLanguage\CLanguage\CLanaugeAdvanced\day01\day01\x64\Debug\day01.exe

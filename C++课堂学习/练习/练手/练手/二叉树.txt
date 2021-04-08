@@ -1,0 +1,131 @@
+//
+//	BTree.cpp, 2018-12-03
+//
+#include <iostream>
+using namespace std;
+
+#define DataLen  32
+typedef char ElemType[DataLen];
+
+typedef struct tagNodeType
+{
+	ElemType data;
+	tagNodeType* left;
+	tagNodeType* right;
+} NodeType, *LpNodeType;
+
+// 创建二叉树
+void CreateBTree(NodeType** pRoot)
+{
+#define CreateNode(pTemp, v)		\
+	pTemp = new NodeType;			\
+	if (!pTemp)						\
+		cout << "err:" << __LINE__;	\
+	else                            \
+	{								\
+		pTemp->data[0] = v;			\
+		pTemp->data[1] = '\0';		\
+		pTemp->left = NULL;			\
+		pTemp->right = NULL;			\
+	}
+
+	NodeType* pTemp;
+	NodeType* parent;
+
+	// 创建A节点
+	CreateNode(pTemp, 'A')
+	*pRoot = pTemp;
+
+	// 创建B节点
+	CreateNode(pTemp, 'B')
+	(*pRoot)->left = pTemp;
+
+	// 创建C节点
+	CreateNode(pTemp, 'C')
+	(*pRoot)->right = pTemp;
+	parent = (*pRoot)->left;
+
+	// 创建D节点
+	CreateNode(pTemp, 'D')
+	parent->left = pTemp;
+
+	// 创建E节点
+	CreateNode(pTemp, 'E')
+	parent->right = pTemp;
+	parent = parent->right;
+
+	// 创建F节点
+	CreateNode(pTemp, 'F')
+	parent->left = pTemp;
+
+	// 创建G节点
+	CreateNode(pTemp, 'G')
+	parent->right = pTemp;
+}
+
+// 销毁二叉树
+void DestroyBTree(NodeType* pRoot)
+{
+	if (pRoot)
+	{
+		DestroyBTree(pRoot->left);
+		DestroyBTree(pRoot->right);
+		delete pRoot;
+	}
+}
+
+// 先序遍历
+void FRoot(NodeType* pRoot)
+{
+	if (pRoot)
+	{
+		cout << pRoot->data << ' ';
+		FRoot(pRoot->left);
+		FRoot(pRoot->right);
+	}
+}
+
+// 中序遍历
+void MRoot(NodeType* pRoot)
+{
+	if (pRoot)
+	{
+		MRoot(pRoot->left);
+		cout << pRoot->data << ' ';
+		MRoot(pRoot->right);
+	}
+}
+
+// 后序遍历
+void LRoot(NodeType* pRoot)
+{
+	if (pRoot)
+	{
+		LRoot(pRoot->left);
+		LRoot(pRoot->right);
+		cout << pRoot->data << ' ';
+	}
+}
+
+int main()
+{
+	NodeType* pRoot = NULL;
+	CreateBTree(&pRoot);
+
+	// 先序遍历
+	FRoot(pRoot);
+	cout << endl;
+
+	// 中序遍历
+	MRoot(pRoot);
+	cout << endl;
+
+	// 后序遍历
+	LRoot(pRoot);
+	cout << endl;
+
+	// 销毁二叉树
+	DestroyBTree(pRoot);
+	system("pause");
+	return 0;
+}

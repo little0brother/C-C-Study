@@ -1,0 +1,8 @@
+﻿  8_2.c
+e:\c语言\作业\sy8_2\sy8_2\8_2.c(9): warning C4305: “初始化”: 从“double”到“float”截断
+e:\c语言\作业\sy8_2\sy8_2\8_2.c(10): warning C4305: “初始化”: 从“double”到“float”截断
+e:\c语言\作业\sy8_2\sy8_2\8_2.c(11): warning C4305: “初始化”: 从“double”到“float”截断
+e:\c语言\作业\sy8_2\sy8_2\8_2.c(12): warning C4305: “初始化”: 从“double”到“float”截断
+e:\c语言\作业\sy8_2\sy8_2\8_2.c(22): warning C4013: “gets”未定义；假设外部返回 int
+e:\c语言\作业\sy8_2\sy8_2\8_2.c(35): warning C4013: “system”未定义；假设外部返回 int
+  sy8_2.vcxproj -> E:\C语言\作业\sy8_2\Debug\sy8_2.exe

@@ -1,0 +1,4 @@
+﻿  01_求圆的面积C.cpp
+F:\ProgramLanguage\CLanguage\CPlusPlus\day01\day01\01_求圆的面积C.cpp(73,19): warning C4101: “c3”: 未引用的局部变量
+F:\ProgramLanguage\CLanguage\CPlusPlus\day01\day01\01_求圆的面积C.cpp(73,15): warning C4101: “c2”: 未引用的局部变量
+  day01.vcxproj -> F:\ProgramLanguage\CLanguage\CPlusPlus\day01\Debug\day01.exe

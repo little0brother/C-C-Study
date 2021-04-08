@@ -1,0 +1,5 @@
+﻿  hw02.c
+F:\ProgramLanguage\CLanguage\CLanaugeAdvanced\day05\day05\homework\hw02.c(20,33): warning C4013: “malloc”未定义；假设外部返回 int
+F:\ProgramLanguage\CLanguage\CLanaugeAdvanced\day05\day05\homework\hw02.c(69,18): warning C4013: “rand”未定义；假设外部返回 int
+F:\ProgramLanguage\CLanguage\CLanaugeAdvanced\day05\day05\homework\hw02.c(140,9): warning C4013: “free”未定义；假设外部返回 int
+  day05.vcxproj -> F:\ProgramLanguage\CLanguage\CLanaugeAdvanced\day05\Debug\day05.exe

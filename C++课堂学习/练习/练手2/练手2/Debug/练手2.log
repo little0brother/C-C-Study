@@ -1,0 +1,3 @@
+﻿  test.cpp
+e:\program language\c language\练习\练手2\练手2\test.cpp(14): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+  练手2.vcxproj -> E:\Program language\C language\练习\练手2\Debug\练手2.exe

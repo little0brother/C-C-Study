@@ -1,0 +1,4 @@
+[2016.04.07 17:12:21] [DEBUG] [SUCCESS] a = 10
+ [c:\users\apple\documents\c提高视频\code\day08\consoleapplication2\consoleapplication2\日志打印测试.c] [12]
+[2016.04.07 17:13:29] [ERROR] [ERRNO is -2] a = 10
+ [c:\users\apple\documents\c提高视频\code\day08\consoleapplication2\consoleapplication2\日志打印测试.c] [12]

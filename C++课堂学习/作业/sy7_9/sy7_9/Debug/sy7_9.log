@@ -1,0 +1,7 @@
+﻿  7_9.c
+e:\c语言\作业\sy7_9\sy7_9\7_9.c(12): warning C4013: “gets”未定义；假设外部返回 int
+e:\c语言\作业\sy7_9\sy7_9\7_9.c(20): warning C4013: “system”未定义；假设外部返回 int
+e:\c语言\作业\sy7_9\sy7_9\7_9.c(29): warning C4013: “strlen”未定义；假设外部返回 int
+e:\c语言\作业\sy7_9\sy7_9\7_9.c(44): warning C4013: “memset”未定义；假设外部返回 int
+e:\c语言\作业\sy7_9\sy7_9\7_9.c(47): warning C4172: 返回局部变量或临时变量的地址: c
+  sy7_9.vcxproj -> E:\C语言\作业\sy7_9\Debug\sy7_9.exe

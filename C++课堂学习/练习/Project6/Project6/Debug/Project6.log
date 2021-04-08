@@ -1,0 +1,4 @@
+﻿  1.c
+e:\c语言\练习\project6\project6\1.c(9): warning C4013: “gets”未定义；假设外部返回 int
+e:\c语言\练习\project6\project6\1.c(15): warning C4013: “system”未定义；假设外部返回 int
+  Project6.vcxproj -> E:\C语言\练习\Project6\Debug\Project6.exe

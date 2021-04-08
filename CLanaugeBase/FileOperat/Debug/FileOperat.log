@@ -1,0 +1,4 @@
+﻿  main.c
+F:\ProgramLanguage\CLanguage\CLanaugeBase\FileOperat\main.c(31,8): warning C4013: “main11”未定义；假设外部返回 int
+main.obj : error LNK2019: 无法解析的外部符号 _main11，函数 _main 中引用了该符号
+F:\ProgramLanguage\CLanguage\CLanaugeBase\Structure\Debug\FileOperat.exe : fatal error LNK1120: 1 个无法解析的外部命令

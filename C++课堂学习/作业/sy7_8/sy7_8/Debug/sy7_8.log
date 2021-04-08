@@ -1,0 +1,5 @@
+﻿  7_8.c
+e:\c语言\作业\sy7_8\sy7_8\7_8.c(10): warning C4013: “gets”未定义；假设外部返回 int
+e:\c语言\作业\sy7_8\sy7_8\7_8.c(16): warning C4013: “system”未定义；假设外部返回 int
+e:\c语言\作业\sy7_8\sy7_8\7_8.c(9): warning C4101: “i”: 未引用的局部变量
+  sy7_8.vcxproj -> E:\C语言\作业\sy7_8\Debug\sy7_8.exe

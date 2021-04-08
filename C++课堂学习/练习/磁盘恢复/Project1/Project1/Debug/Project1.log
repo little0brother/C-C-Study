@@ -1,0 +1,63 @@
+﻿  disk.cpp
+e:\program language\c language\练习\磁盘恢复\project1\project1\disk.h(26): error C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_wstring.h(123): note: 参见“wcscpy”的声明
+e:\program language\c language\练习\磁盘恢复\project1\project1\disk.cpp(15): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(208): note: 参见“fopen”的声明
+e:\program language\c language\练习\磁盘恢复\project1\project1\disk.cpp(20): error C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\time.h(506): note: 参见“localtime”的声明
+e:\program language\c language\练习\磁盘恢复\project1\project1\disk.cpp(22): error C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(182): note: 参见“strerror”的声明
+e:\program language\c language\练习\磁盘恢复\project1\project1\disk.cpp(32): error C2664: “HANDLE CreateFileA(LPCSTR,DWORD,DWORD,LPSECURITY_ATTRIBUTES,DWORD,DWORD,HANDLE)”: 无法将参数 1 从“wchar_t [20]”转换为“LPCSTR”
+  e:\program language\c language\练习\磁盘恢复\project1\project1\disk.cpp(33): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+e:\program language\c language\练习\磁盘恢复\project1\project1\disk.cpp(37): error C2664: “void Disk::errlog(char *,int,int)”: 无法将参数 1 从“const char [72]”转换为“char *”
+  e:\program language\c language\练习\磁盘恢复\project1\project1\disk.cpp(37): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+e:\program language\c language\练习\磁盘恢复\project1\project1\disk.cpp(55): error C2664: “void Disk::errlog(char *,int,int)”: 无法将参数 1 从“const char [72]”转换为“char *”
+  e:\program language\c language\练习\磁盘恢复\project1\project1\disk.cpp(55): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+e:\program language\c language\练习\磁盘恢复\project1\project1\disk.cpp(104): error C2664: “HANDLE CreateFileA(LPCSTR,DWORD,DWORD,LPSECURITY_ATTRIBUTES,DWORD,DWORD,HANDLE)”: 无法将参数 1 从“wchar_t [20]”转换为“LPCSTR”
+  e:\program language\c language\练习\磁盘恢复\project1\project1\disk.cpp(105): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+e:\program language\c language\练习\磁盘恢复\project1\project1\disk.cpp(109): error C2664: “void Disk::errlog(char *,int,int)”: 无法将参数 1 从“const char [72]”转换为“char *”
+  e:\program language\c language\练习\磁盘恢复\project1\project1\disk.cpp(109): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+e:\program language\c language\练习\磁盘恢复\project1\project1\disk.cpp(128): error C2664: “void Disk::errlog(char *,int,int)”: 无法将参数 1 从“const char [72]”转换为“char *”
+  e:\program language\c language\练习\磁盘恢复\project1\project1\disk.cpp(128): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+e:\program language\c language\练习\磁盘恢复\project1\project1\disk.cpp(203): error C2664: “HANDLE CreateFileA(LPCSTR,DWORD,DWORD,LPSECURITY_ATTRIBUTES,DWORD,DWORD,HANDLE)”: 无法将参数 1 从“wchar_t [20]”转换为“LPCSTR”
+  e:\program language\c language\练习\磁盘恢复\project1\project1\disk.cpp(204): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+e:\program language\c language\练习\磁盘恢复\project1\project1\disk.cpp(208): error C2664: “void Disk::errlog(char *,int,int)”: 无法将参数 1 从“const char [72]”转换为“char *”
+  e:\program language\c language\练习\磁盘恢复\project1\project1\disk.cpp(208): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+e:\program language\c language\练习\磁盘恢复\project1\project1\disk.cpp(226): error C2664: “void Disk::errlog(char *,int,int)”: 无法将参数 1 从“const char [72]”转换为“char *”
+  e:\program language\c language\练习\磁盘恢复\project1\project1\disk.cpp(226): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+e:\program language\c language\练习\磁盘恢复\project1\project1\disk.cpp(270): error C2664: “HANDLE CreateFileA(LPCSTR,DWORD,DWORD,LPSECURITY_ATTRIBUTES,DWORD,DWORD,HANDLE)”: 无法将参数 1 从“wchar_t [20]”转换为“LPCSTR”
+  e:\program language\c language\练习\磁盘恢复\project1\project1\disk.cpp(271): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+e:\program language\c language\练习\磁盘恢复\project1\project1\disk.cpp(275): error C2664: “void Disk::errlog(char *,int,int)”: 无法将参数 1 从“const char [72]”转换为“char *”
+  e:\program language\c language\练习\磁盘恢复\project1\project1\disk.cpp(275): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+e:\program language\c language\练习\磁盘恢复\project1\project1\disk.cpp(287): error C2664: “void Disk::errlog(char *,int,int)”: 无法将参数 1 从“const char [72]”转换为“char *”
+  e:\program language\c language\练习\磁盘恢复\project1\project1\disk.cpp(287): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+e:\program language\c language\练习\磁盘恢复\project1\project1\disk.cpp(298): error C2664: “HANDLE CreateFileA(LPCSTR,DWORD,DWORD,LPSECURITY_ATTRIBUTES,DWORD,DWORD,HANDLE)”: 无法将参数 1 从“wchar_t [20]”转换为“LPCSTR”
+  e:\program language\c language\练习\磁盘恢复\project1\project1\disk.cpp(299): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+e:\program language\c language\练习\磁盘恢复\project1\project1\disk.cpp(303): error C2664: “void Disk::errlog(char *,int,int)”: 无法将参数 1 从“const char [72]”转换为“char *”
+  e:\program language\c language\练习\磁盘恢复\project1\project1\disk.cpp(303): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+e:\program language\c language\练习\磁盘恢复\project1\project1\disk.cpp(315): error C2664: “void Disk::errlog(char *,int,int)”: 无法将参数 1 从“const char [72]”转换为“char *”
+  e:\program language\c language\练习\磁盘恢复\project1\project1\disk.cpp(315): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+e:\program language\c language\练习\磁盘恢复\project1\project1\disk.cpp(365): error C2664: “HANDLE CreateFileA(LPCSTR,DWORD,DWORD,LPSECURITY_ATTRIBUTES,DWORD,DWORD,HANDLE)”: 无法将参数 1 从“wchar_t [20]”转换为“LPCSTR”
+  e:\program language\c language\练习\磁盘恢复\project1\project1\disk.cpp(366): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+e:\program language\c language\练习\磁盘恢复\project1\project1\disk.cpp(370): error C2664: “void Disk::errlog(char *,int,int)”: 无法将参数 1 从“const char [72]”转换为“char *”
+  e:\program language\c language\练习\磁盘恢复\project1\project1\disk.cpp(370): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+e:\program language\c language\练习\磁盘恢复\project1\project1\disk.cpp(392): error C2664: “void Disk::errlog(char *,int,int)”: 无法将参数 1 从“const char [72]”转换为“char *”
+  e:\program language\c language\练习\磁盘恢复\project1\project1\disk.cpp(392): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+e:\program language\c language\练习\磁盘恢复\project1\project1\disk.cpp(404): error C2664: “void Disk::errlog(char *,int,int)”: 无法将参数 1 从“const char [72]”转换为“char *”
+  e:\program language\c language\练习\磁盘恢复\project1\project1\disk.cpp(404): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+  Source.cpp
+e:\program language\c language\练习\磁盘恢复\project1\project1\disk.h(26): error C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_wstring.h(123): note: 参见“wcscpy”的声明
+e:\program language\c language\练习\磁盘恢复\project1\project1\source.cpp(160): error C2664: “void Disk::errlog(char *,int,int)”: 无法将参数 1 从“const char [74]”转换为“char *”
+  e:\program language\c language\练习\磁盘恢复\project1\project1\source.cpp(160): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+e:\program language\c language\练习\磁盘恢复\project1\project1\source.cpp(156): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(208): note: 参见“fopen”的声明
+e:\program language\c language\练习\磁盘恢复\project1\project1\source.cpp(177): error C2664: “void Disk::errlog(char *,int,int)”: 无法将参数 1 从“const char [74]”转换为“char *”
+  e:\program language\c language\练习\磁盘恢复\project1\project1\source.cpp(177): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+e:\program language\c language\练习\磁盘恢复\project1\project1\source.cpp(185): error C2664: “void Disk::errlog(char *,int,int)”: 无法将参数 1 从“const char [74]”转换为“char *”
+  e:\program language\c language\练习\磁盘恢复\project1\project1\source.cpp(185): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+e:\program language\c language\练习\磁盘恢复\project1\project1\source.cpp(173): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(208): note: 参见“fopen”的声明
+e:\program language\c language\练习\磁盘恢复\project1\project1\source.cpp(215): error C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(2263): note: 参见“sscanf”的声明
+  正在生成代码...

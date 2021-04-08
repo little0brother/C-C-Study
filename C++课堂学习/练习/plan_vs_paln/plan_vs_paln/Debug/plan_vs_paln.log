@@ -1,0 +1,28 @@
+﻿  stdafx.cpp
+e:\program language\c language\练习\plan_vs_paln\plan_vs_paln\stdafx.cpp(10): error C2065: “CDC”: 未声明的标识符
+e:\program language\c language\练习\plan_vs_paln\plan_vs_paln\stdafx.cpp(10): error C2065: “pDC”: 未声明的标识符
+e:\program language\c language\练习\plan_vs_paln\plan_vs_paln\stdafx.cpp(10): error C2062: 意外的类型“int”
+e:\program language\c language\练习\plan_vs_paln\plan_vs_paln\stdafx.cpp(19): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+e:\program language\c language\练习\plan_vs_paln\plan_vs_paln\stdafx.cpp(19): error C2146: 语法错误: 缺少“;”(在标识符“enemydead”的前面)
+e:\program language\c language\练习\plan_vs_paln\plan_vs_paln\stdafx.cpp(20): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+e:\program language\c language\练习\plan_vs_paln\plan_vs_paln\stdafx.cpp(20): error C2086: “int CBitmap”: 重定义
+  e:\program language\c language\练习\plan_vs_paln\plan_vs_paln\stdafx.cpp(19): note: 参见“CBitmap”的声明
+e:\program language\c language\练习\plan_vs_paln\plan_vs_paln\stdafx.cpp(20): error C2146: 语法错误: 缺少“;”(在标识符“bmenemyshot”的前面)
+e:\program language\c language\练习\plan_vs_paln\plan_vs_paln\stdafx.cpp(21): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+e:\program language\c language\练习\plan_vs_paln\plan_vs_paln\stdafx.cpp(21): error C2086: “int CBitmap”: 重定义
+  e:\program language\c language\练习\plan_vs_paln\plan_vs_paln\stdafx.cpp(19): note: 参见“CBitmap”的声明
+e:\program language\c language\练习\plan_vs_paln\plan_vs_paln\stdafx.cpp(21): error C2146: 语法错误: 缺少“;”(在标识符“enemy”的前面)
+e:\program language\c language\练习\plan_vs_paln\plan_vs_paln\stdafx.cpp(22): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+e:\program language\c language\练习\plan_vs_paln\plan_vs_paln\stdafx.cpp(22): error C2086: “int CBitmap”: 重定义
+  e:\program language\c language\练习\plan_vs_paln\plan_vs_paln\stdafx.cpp(19): note: 参见“CBitmap”的声明
+e:\program language\c language\练习\plan_vs_paln\plan_vs_paln\stdafx.cpp(22): error C2146: 语法错误: 缺少“;”(在标识符“bmshot”的前面)
+e:\program language\c language\练习\plan_vs_paln\plan_vs_paln\stdafx.cpp(23): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+e:\program language\c language\练习\plan_vs_paln\plan_vs_paln\stdafx.cpp(23): error C2086: “int CBitmap”: 重定义
+  e:\program language\c language\练习\plan_vs_paln\plan_vs_paln\stdafx.cpp(19): note: 参见“CBitmap”的声明
+e:\program language\c language\练习\plan_vs_paln\plan_vs_paln\stdafx.cpp(23): error C2146: 语法错误: 缺少“;”(在标识符“plane”的前面)
+e:\program language\c language\练习\plan_vs_paln\plan_vs_paln\stdafx.cpp(27): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+e:\program language\c language\练习\plan_vs_paln\plan_vs_paln\stdafx.cpp(27): error C2086: “int CBitmap”: 重定义
+  e:\program language\c language\练习\plan_vs_paln\plan_vs_paln\stdafx.cpp(19): note: 参见“CBitmap”的声明
+e:\program language\c language\练习\plan_vs_paln\plan_vs_paln\stdafx.cpp(27): error C2146: 语法错误: 缺少“;”(在标识符“bmfire”的前面)
+e:\program language\c language\练习\plan_vs_paln\plan_vs_paln\stdafx.cpp(28): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+e:\program language\c language\练习\plan_vs_paln\plan_vs_paln\stdafx.cpp(28): error C2146: 语法错误: 缺少“;”(在标识符“pointfire”的前面)

@@ -1,0 +1,4 @@
+﻿  main.c
+e:\c语言\练习\可变数组\可变数组\main.c(34): warning C4029: 声明的形参表不同于定义
+e:\c语言\练习\可变数组\可变数组\main.c(35): warning C4047: “return”:“int *”与“int”的间接级别不同
+  可变数组.vcxproj -> E:\C语言\练习\可变数组\Debug\可变数组.exe

@@ -1,0 +1,4 @@
+﻿  05_字符串的初始化.c
+F:\ProgramLanguage\CLanguage\CLanaugeAdvanced\day02\day02\05_字符串的初始化.c(64,16): warning C4013: “strlen”未定义；假设外部返回 int
+F:\ProgramLanguage\CLanguage\CLanaugeAdvanced\day02\day02\05_字符串的初始化.c(67,13): warning C4047: “=”:“char”与“char [2]”的间接级别不同
+  day02.vcxproj -> F:\ProgramLanguage\CLanguage\CLanaugeAdvanced\day02\Debug\day02.exe

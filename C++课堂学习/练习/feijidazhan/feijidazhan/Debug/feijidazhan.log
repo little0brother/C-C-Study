@@ -1,0 +1,4 @@
+﻿E:\编译器\MSBuild\Microsoft\VisualStudio\v15.0\CodeAnalysis\Microsoft.CodeAnalysis.targets(189,5): error : 此编译的源文件可以在以下位置找到:“C:\WINDOWS\TEMP\306da24c-7723-4a91-9ffe-692af7af260d.txt”
+E:\编译器\MSBuild\Microsoft\VisualStudio\v15.0\CodeAnalysis\Microsoft.CodeAnalysis.targets(189,5): error MSB3758: 编译时出错。error CS2001: 未能找到源文件“C:\WINDOWS\TEMP\jiphxmnj.0.cs”
+E:\编译器\MSBuild\Microsoft\VisualStudio\v15.0\CodeAnalysis\Microsoft.CodeAnalysis.targets(189,5): error MSB3758: 编译时出错。warning CS2008: 未指定源文件
+E:\编译器\MSBuild\Microsoft\VisualStudio\v15.0\CodeAnalysis\Microsoft.CodeAnalysis.targets(189,5): error MSB4175: 未能从程序集“E:\编译器\MSBuild\15.0\Bin\Microsoft.Build.Tasks.Core.dll”加载任务工厂“CodeTaskFactory”。任务工厂必须对 "TaskType" 属性返回一个值。

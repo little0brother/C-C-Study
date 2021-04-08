@@ -1,0 +1,1 @@
+extern const int m_B = 200;   // c++下必须手动添加extern关键字 提高作用域

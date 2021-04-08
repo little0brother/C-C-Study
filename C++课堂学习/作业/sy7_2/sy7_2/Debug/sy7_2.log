@@ -1,0 +1,6 @@
+﻿  7_2.c
+e:\c语言\作业\sy7_2\sy7_2\7_2.c(9): warning C4047: “return”:“int *”与“int”的间接级别不同
+e:\c语言\作业\sy7_2\sy7_2\7_2.c(15): warning C4013: “gets”未定义；假设外部返回 int
+e:\c语言\作业\sy7_2\sy7_2\7_2.c(18): warning C4013: “system”未定义；假设外部返回 int
+e:\c语言\作业\sy7_2\sy7_2\7_2.c(16): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“int *”
+  sy7_2.vcxproj -> E:\C语言\作业\sy7_2\Debug\sy7_2.exe

@@ -1,0 +1,7 @@
+﻿  11_引用作为函数的返回值.cpp
+  正在生成代码
+  Previous IPDB not found, fall back to full compilation.
+  All 6 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+F:\ProgramLanguage\CLanguage\CPlusPlus\day01\day01\11_引用作为函数的返回值.cpp(17): warning C4172: 返回局部变量或临时变量的地址: a
+  已完成代码的生成
+  day01.vcxproj -> F:\ProgramLanguage\CLanguage\CPlusPlus\day01\Release\day01.exe
